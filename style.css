@@ -1,0 +1,556 @@
+body {
+  font-family: 'Roboto', serif;
+  color: #121111;
+  letter-spacing: 0.25px;
+}
+/*
+=======================
+01. Typography Settings
+=======================
+*/
+
+h1, h2, .navbar-brand {
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+h5 {
+  font-size: 15px;
+  font-weight: 500;
+}
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+.display-1 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.display-2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.display-3 {
+  font-size: 46px;
+  font-weight: 700;
+}
+.display-4 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+aside p {
+  color: #939393;
+}
+.disply-2 {
+  font-size: 27px;
+  font-weight: 300;
+}
+.light {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semiBold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.color {
+  color: #4b5ec8 !important;
+}
+a {
+  color: #121111;
+  text-decoration: none;
+  transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
+
+.btn, button {
+  transition: .3s ease !important;
+    -moz-transition: .3s ease !important;
+    -webkit-transition: .3s ease !important;
+    -o-transition: color .3s ease !important;
+}
+
+a:hover, a:active, a:focus {
+  color: #6375d6;
+  text-decoration: underline;
+}
+
+.btn{
+  padding: 12px 32px;
+}
+
+.btn, .btn:hover, .btn:focus, .btn:active {
+  border:none;
+  box-shadow: none;
+}
+
+button {
+    border: none;
+    padding: 10px 22px;
+}
+
+.btn-primary, button {
+  background: -webkit-linear-gradient(50deg,#4b5ec8,#18a0ff)!important;
+    background: -o-linear-gradient(50deg,#4b5ec8,#18a0ff)!important;
+    background: linear-gradient(40deg,#4b5ec8,#18a0ff)!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    color: #fff !important;
+    border-radius: 100px;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .product-thumb a img:hover{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.20), 0 3px 12px 0 rgba(0,0,0,.16);
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0,0,0,.20), 0 3px 12px 0 rgba(0,0,0,.16);
+}
+
+button:hover, button:active, button:focus{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.20), 0 3px 12px 0 rgba(0,0,0,.16);
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0,0,0,.20), 0 3px 12px 0 rgba(0,0,0,.16);
+}
+
+.btn-link {
+  font-weight: 600;
+  color: #414141;
+  padding: 8px 16px;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #4b5ec8;
+}
+
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  display: inline-flex;
+}
+.breadcrumbs-nav {
+  background-color: #f6f6f6;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.breadcrumb-item{
+  font-size: 15px;
+}
+.breadcrumb-item a{
+  color: #414141;
+}
+.breadcrumb-item a:hover{
+  color: #4b5ec8;
+}
+.breadcrumb-item.active a {
+  color: #777777;
+}
+
+.icon {
+  font-size: 18px;
+  top: 3px;
+    position: relative;
+}
+
+.pl-6 {
+  padding-left: 5rem !important;
+}
+.pr-6 {
+  padding-right: 5rem !important;
+}
+
+/*Extra Typography Styles*/
+
+blockquote, .blockquote {
+  padding: 30px 30px 30px 50px;
+  border-left: 4px solid rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.02);
+}
+mark {
+  background-color: #d9ebfd;
+}
+code {
+  color: #4b5ec8;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  table-layout: fixed;
+}
+table tr {
+
+}
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+table td, table th {
+    padding: 16px 10px;
+    vertical-align: top;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+main a {
+  color: #6375d6;
+}
+
+main a:hover, main a:active, main a:focus {
+  color: #4b5ec8;
+  text-decoration: underline;
+}
+
+main li {
+    list-style-type: inherit;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+main > li {
+    list-style-type: inherit;
+    font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+strong {
+    color: #515151;
+}
+
+main ul {
+  padding-left: 30px;
+}
+
+main ol {
+  padding-left: 36px;
+}
+
+/*
+Typography Settings End
+*/
+
+/*Preloaders settings*/
+body .preloader-container.loaded{
+  opacity:0;
+  visibility:hidden;
+}
+/*=============Heading typography============*/
+.heading-typo {
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+@media only  screen and (max-width: 480px){
+
+	.heading-typo{
+		padding-left: 20px;
+	}
+}
+
+/*====================Banner==================*/
+#banner{
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.mask {
+  background-color: #000000;
+  opacity: 0.6239071800595238;
+  width: 1440px;
+  height: 541px;
+}
+.banner-title{
+  color: #FFFFFF;
+  font-family: Titillium;
+  font-size: 28px;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  text-align: left;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.banner-para {
+  color: #FFFFFF;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 34px;
+  text-align: left;
+}
+.btn-contact{
+  background: #DD5A6A !important;
+  border-radius: 3.2px;
+}
+.form-bg{
+  background-color: #FFFFFF;
+  box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+  width: 339px;
+  padding: 30px;
+  float: right;
+}
+.enquire-now {
+  color: #213559;
+  font-family: StagSans;
+  font-size: 20.08px;
+  line-height: 24px;
+  width: 127px;
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+form input{
+  border: 0.87px solid #D0D0D0;
+  width: 278px;
+  height: 42px;
+  margin-bottom: 10px;
+}
+form input[type=submit] {
+  background-color: #DD5A6A;
+  color: #FFFFFF;
+  font-family: StagSans;
+  font-size: 16px;
+  width: 45%;
+  margin-top:20px;
+}
+@media only  screen and (max-width: 480px){
+
+  #banner{
+    padding: 50px 0;
+  }
+  .promo-title{
+  	padding-left:20px;
+  }
+  .form-bg{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 300px;
+    float: left;
+    padding:40px 0px 30px 25px;
+  }
+  form input{
+  	width:250px;
+  	padding: 0px;
+  }
+  .banner-title{
+    margin-top:25px;
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+  
+  .banner-para{
+    margin-bottom:25px;
+    font-size: 22px;
+    line-height: 1.6;
+    letter-spacing: 1.8px;
+  }
+  
+}
+/*=====================About us===============*/
+#about-us{
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+.about-us-box {
+  background-image: linear-gradient(to right, #2EC4B8 0%, #6078EA 100%);
+  border-radius: 4px;
+  padding:10px;  
+}
+@media only  screen and (max-width: 480px){
+	#about-us{
+		padding-left: 20px;
+	}
+	.about-us-img{
+		margin-bottom: 40px;
+		max-width: -webkit-fill-available;
+	}
+}
+/*=====================Doctors================*/
+#doctors{
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+#doctors hr{
+	margin-top: 32px;
+	margin-bottom: 40px;
+}
+.doctor-profile {
+  background-color: #F9F9FF;
+  border-radius: 4px;
+  text-align: center;
+  padding: 40px;
+}
+.doctor-name{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 10px;
+	
+}
+.doctor-destination {
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 16px;
+  text-align: center;
+}
+.divider{
+  border: 1px solid #22B78E;
+  width: 37px;
+  height: 1px;
+
+}
+
+/*===================Types of Bone Marrow=====*/
+.types{
+	list-style-image: url('images/hospital.png');
+  	color: #000000;
+ 	font-family: StagSans;
+  	font-size: 18px;
+  	line-height: 39px;
+  	text-align: left;
+  	padding:10px;
+}
+@media only screen and (max-width:480px){
+	.types{
+		padding-left: 25px;
+	}
+}
+/*================Symptoms==================*/
+#symptoms{
+	margin-bottom: 20px;
+}
+.icon-box {
+  background-color: #FFFFFF;
+  border: 1px solid #E5EAFF;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+ /* width: 255px; */
+  height: 180px;
+  margin-bottom: 20px;
+  padding: 25px;
+}
+.icon-box p{
+	padding-top: 10px;
+}
+/*===============FAQ=========================*/
+.faq {
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  text-align: left;
+  border-bottom: 1px solid #ECECFF;
+
+}
+@media only screen and(max-width:480px){
+	.faq{
+		padding-left:20px;
+	}
+	p.faq{
+		padding-left: 20px;
+	}
+}
+/*=================Testimonial==================*/
+#testimonials{
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+.testimonial-card {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+ /* height: 300px;
+  width: 450px;*/
+  padding: 20px;
+}
+.testimonial-card img{
+	width: 100px;
+	height: 100px;
+	margin-top: 20px;
+	border-radius: 50%;
+}
+.client-profile{
+	padding: 25px;
+}
+/*===============Footer================*/
+footer {
+  padding-top:20px;
+  background-color: #272727;
+  height: 150px;
+  text-align: center;
+}
+.social-links ul {
+  display: table;
+  margin: 0 auto;
+}
+.social-links ul li {
+  float: left;
+}
+.social-links ul li + li {
+  margin-left: 7px;
+}
+.social-icons {
+	margin-left: 5px;
+	color: #ECECFF;
+}
+
+.copy-rights{
+  color: #FFFFFF;
+  font-family: StagSans;
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 17px;
+  text-align: center;
+}
